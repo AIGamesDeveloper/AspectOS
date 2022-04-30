@@ -3,6 +3,7 @@
 html {
     font-size: 19px;
     font-family: 'Source Sans Pro', sans-serif;
+    color: --text-color !important; 
 
     --primary: #85c6e6;
     --main-bg: #EEEEEE;

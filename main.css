@@ -9,6 +9,9 @@ html {
     --text-color: #11111f;
 }
 
+* { color: --text-color !important; 
+ }
+
 .card-dark {
     background-color: var(--primary);
     border-color: var(--primary) !important;

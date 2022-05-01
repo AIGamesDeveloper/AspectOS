@@ -3,8 +3,7 @@ name: Suggestion
 about: Suggest an idea to be added to the website. It could be anything!
 title: My suggestion
 labels: enhancement, help wanted
-assignees: ''
-
+assignees: ""
 ---
 
 **Is your feature request related to a problem? Please describe.**

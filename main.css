@@ -4,7 +4,6 @@ html {
     font-size: 19px;
     font-family: 'Source Sans Pro', sans-serif;
     color: --text-color !important; 
-
     --primary: #85c6e6;
     --main-bg: #EEEEEE;
     --text-color: #11111f;
@@ -141,5 +140,9 @@ body {
 }
 
 .nav-link, .navbar-brand {
+    color: var(--text-color) !important;
+}
+
+a {
     color: var(--text-color) !important;
 }

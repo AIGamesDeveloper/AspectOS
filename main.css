@@ -153,3 +153,8 @@ a {
 .copyright-text {
     color: var(--text-color) !important;
 }
+
+.footer-text {
+    color: var(--text-color) !important;
+}
+

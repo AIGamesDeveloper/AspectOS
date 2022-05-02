@@ -61,6 +61,19 @@ html {
     border-color: var(--primary) !important;
 }
 
+@media (prefers-color-scheme: dark) {
+    .light-mode {
+        --primary: #85c6e6 !important;
+        --main-bg: #EEEEEE !important;
+        --text-color: #11111f !important;
+      }
+    
+    .light-mode .card-dark {
+        background-color: var(--primary) !important;
+        border-color: var(--primary) !important;
+    }
+}
+
 /* End of Light Mode Toggeling*/
 
 a {

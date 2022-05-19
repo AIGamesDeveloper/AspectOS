@@ -8,4 +8,4 @@ Welcome! This is the code behind the official AspectOS website! We have over 9 c
 
 If you have any issues with our website, please make a new issue so we know what to fix. Constructive criticism really helps us improve and we would love to hear it!
 
-The Website is Currently on Version 1.3.0
+Website Version: v1.3.0

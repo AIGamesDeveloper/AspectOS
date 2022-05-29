@@ -3,11 +3,14 @@
 html {
     font-size: 19px;
     font-family: 'Source Sans Pro', sans-serif;
-
+    color: --text-color !important; 
     --primary: #85c6e6;
     --main-bg: #EEEEEE;
     --text-color: #11111f;
 }
+
+* { color: --text-color !important; 
+ }
 
 .card-dark {
     background-color: var(--primary);
@@ -25,7 +28,52 @@ html {
         background-color: var(--primary);
         border-color: var(--primary) !important;
     }
+
 }
+
+/* Dark mode toggeling */
+.dark-mode {
+    --primary: #003a6f;
+    --main-bg: #222233;
+    --text-color: #EEEEFF;
+  }
+
+.dark-mode.card-dark {
+    background-color: var(--primary);
+    border-color: var(--primary) !important;
+}
+.dark-mode.row {
+    color: white;
+}
+
+/* End of Dark Mode Toggeling*/
+
+/* Light mode toggeling */
+.light-mode {
+    --primary: #85c6e6 !important;
+    --main-bg: #EEEEEE !important;
+    --text-color: #11111f !important;
+  }
+
+.light-mode .card-dark {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .light-mode {
+        --primary: #85c6e6 !important;
+        --main-bg: #EEEEEE !important;
+        --text-color: #11111f !important;
+      }
+    
+    .light-mode .card-dark {
+        background-color: var(--primary) !important;
+        border-color: var(--primary) !important;
+    }
+}
+
+/* End of Light Mode Toggeling*/
 
 a {
     color: var(--primary);
@@ -86,9 +134,6 @@ body {
 
 .footer-bg {
     background-color: var(--main-bg);
-    background-image: url("images/PrettyBackgroundImage.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .footer-bg a {
@@ -101,9 +146,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
     .footer-bg {
-        background-color: var(--main-bg);
-        background-image: url("images/PrettyBackgroundImageDark.jpg");
-        color: var(--text-color);
+        color: var(--main-bg);
     }
 
     a {
@@ -112,5 +155,21 @@ body {
 }
 
 .nav-link, .navbar-brand {
+    color: var(--text-color) !important;
+}
+
+a {
+    color: var(--text-color) !important;
+}
+
+.copyright-text {
+    color: var(--text-color) !important;
+}
+
+.footer-text {
+    color: var(--text-color) !important;
+}
+
+.text {
     color: var(--text-color) !important;
 }

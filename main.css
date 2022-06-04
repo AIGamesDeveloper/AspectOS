@@ -174,7 +174,7 @@ a {
     color: var(--text-color) !important;
 }
 
-.alert-link {
+.alert-link a {
     color: #a45159;
     font-weight: bolder;
 }

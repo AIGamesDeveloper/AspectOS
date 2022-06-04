@@ -22,7 +22,6 @@ html {
         --primary: #003a6f;
         --main-bg: #222233;
         --text-color: #EEEEFF;
-        --alert-link-text-color: #a45159;
     }
 
     .card-dark {
@@ -37,7 +36,6 @@ html {
     --primary: #003a6f;
     --main-bg: #222233;
     --text-color: #EEEEFF;
-    --alert-link-text-color: #a45159;
   }
 
 .dark-mode.card-dark {
@@ -55,7 +53,6 @@ html {
     --primary: #85c6e6 !important;
     --main-bg: #EEEEEE !important;
     --text-color: #11111f !important;
-    --alert-link-text-color: #a45159;
   }
 
 .light-mode .card-dark {
@@ -68,7 +65,6 @@ html {
         --primary: #85c6e6 !important;
         --main-bg: #EEEEEE !important;
         --text-color: #11111f !important;
-        --alert-link-text-color: #a45159;
       }
     
     .light-mode .card-dark {
@@ -176,9 +172,4 @@ a {
 
 .text {
     color: var(--text-color) !important;
-}
-
-.alert-link {
-    font-weight: bolder;
-    color: var(--alert-link-text-color);
 }

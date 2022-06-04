@@ -173,3 +173,8 @@ a {
 .text {
     color: var(--text-color) !important;
 }
+
+.alert-link {
+    color: #a45159;
+    font-weight: bolder;
+}
